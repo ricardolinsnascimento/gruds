@@ -1,0 +1,23 @@
+  .row{
+    margin-bottom: 20px;
+  }
+  div.bg{
+    height: 50px;
+    border: 1px solid #fff;     
+  }     
+  div.bgb{
+    height: 30px;
+    border: 1px solid #fff;     
+  }      
+  div.bg2{
+    background-color: #FFFF00 ;        
+  }
+  div.bg3{
+    background-color: #D3D3D3 ;        
+  }
+
+   body{
+    margin-top: 10px;
+  }
+
+

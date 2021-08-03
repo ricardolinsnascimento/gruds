@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<title>Cidade	</title>
+	   <!-- Bootstrap Core CSS -->
+	   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    
+</head>
+<body>
+	  <div class="container text-center">
+	
+		<a class="menu-toggle rounded" href="#">
+	      <i class="fas fa-bars"></i>
+	    </a>
+	    <nav id="sidebar-wrapper">
+	      <ul class="sidebar-nav">
+	        <li class="sidebar-brand">
+	          <a class="js-scroll-trigger" href="index.html">TripGD</a>
+	        </li><!--itens do menu-->
+	        <li class="sidebar-nav-item">
+	          <a class="js-scroll-trigger" href="index.html">Home</a>
+	        </li>>
+	        <li class="sidebar-nav-item">
+	          <a class="js-scroll-trigger" href="#sobre">Sobre</a>
+	        </li>
+	        <li class="sidebar-nav-item">
+	          <a class="js-scroll-trigger" href="#contato">Contato</a>
+	        </li>
+	      </ul>
+	    </nav>
+
+	
+	    <!-- About -->
+	    <section class="content-section bg-light" id="about">
+	    
+	        <div class="row">
+	           <div class=" col-lg-12 card border-info mb-3 ">	          
+				  <div class="card-header font-weight-bold" style="font-size: 25px;">Dourados</div>
+				  <div class="card-body text-info">
+				    <img src="img/dourados.png">
+    
+	            <p class="lead mb-5 text-left mt-5 text-body ">Dourados é um município brasileiro da região Centro-Oeste, localizado no estado de Mato Grosso do Sul. O município está situado no centro-sul de Mato Grosso do Sul entre a Serra de Maracaju e a bacia do Rio Paraná sendo também parte integrante da na Região Geográfica Intermediária de Dourados e Região Geográfica Imediata de mesmo nome.Assim como no resto do estado, sua bebida característica é o tereré, que é de fácil preparo e tomado principalmente nos encontros informais entre familiares e amigos. Fundada em 1935, Dourados teve desenvolvimento lento até a segunda metade do século XX, por causa das deficiências de meios de transporte e vias de comunicação com outras cidades e estados.
+	              <a href="http://www.dourados.ms.gov.br/">Ver mais</a></p>
+	            <button class="btn btn-dark btn-xl js-scroll-trigger"type="button"data-toggle="modal" data-target="#modalExemplo2">Cadastrar ponto</button>
+	            </div>
+		        <div id="modalExemplo2" class="modal  text-left">
+		          <div class="modal-dialog" role-"document">
+		            <div class="modal-content">
+		              <div class="modal-header">
+		                <h5 class="modal-title"> Cadastro de ponto turístico </h5>
+		                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+		                <span aria-hidden="true">&times; </span>
+		                </button>
+		              </div>
+		              <div class="modal-body">
+				        <form action="/formUsuario" method="post">
+				          <div class="form-group">
+				            <label id="labelModal" for="Inputnome1"> Nome </label>
+				            <input type="nome" class="form-control" name="Inputnome1" id="Inputnome1" placeholder="Insira seu nome" aria-describedby="nomeHelp">
+				            <small id="nomeHelp" class="form-text text-muted">  </small>
+				          </div>			       
+				          	<div class="form-group">
+				            <label for="InputCidade"> Estado </label>
+				             <select class="form-control" name="InputCidade1" id="InputCidade1" >
+				              <option value="" disabled selected>Selecione o estado</option>
+				                  <option value="ac">AC</option>
+				                  <option value="ap">AP</option>
+				                  <option value="am">AM</option>
+				                  <option value="pa">PA</option>
+				                  <option value="ro">RO</option>
+				                  <option value="rr">RR</option>
+				                  <option value="to">TO</option>
+				                  <option value="al">AL</option>
+				                  <option value="ba">BA</option>
+				                  <option value="ce">CE</option>
+				                  <option value="ma">MA</option>
+				                  <option value="pb">PB</option>
+				                  <option value="pe">PE</option>
+				                  <option value="pi">PI</option>
+				                  <option value="rn">RN</option>
+				                  <option value="se">SE</option>
+				                  <option value="go">GO</option>
+				                  <option value="mt">MT</option>
+				                  <option value="ms">MS</option>
+				                  <option value="df">DF</option>
+				                  <option value="es">ES</option>
+				                  <option value="mg">MG</option>
+				                  <option value="sp">SP</option>
+				                  <option value="rj">RJ</option>
+				                  <option value="pr">PR</option>
+				                  <option value="sc">SC</option>
+
+				    </select>
+				  
+				          </div>
+				          <div class="form-group">
+		            <label for="InputCidade"> Cidade </label>
+		             <select class="form-control" name="InputCidade1" id="InputCidade1" >
+		              <option value="" disabled selected>Selecione a cidade</option>
+		                  <option value="ac">AC</option>
+		                  <option value="ap">AP</option>
+		                  <option value="am">AM</option>
+		                  <option value="pa">PA</option>
+		                  <option value="ro">RO</option>
+		                  <option value="rr">RR</option>
+		                  <option value="to">TO</option>
+		                  <option value="al">AL</option>
+		                  <option value="ba">BA</option>
+		                  <option value="ce">CE</option>
+		                  <option value="ma">MA</option>
+		                  <option value="pb">PB</option>
+		                  <option value="pe">PE</option>
+		                  <option value="pi">PI</option>
+		                  <option value="rn">RN</option>
+		                  <option value="se">SE</option>
+		                  <option value="go">GO</option>
+		                  <option value="mt">MT</option>
+		                  <option value="ms">MS</option>
+		                  <option value="df">DF</option>
+		                  <option value="es">ES</option>
+		                  <option value="mg">MG</option>
+		                  <option value="sp">SP</option>
+		                  <option value="rj">RJ</option>
+		                  <option value="pr">PR</option>
+		                  <option value="sc">SC</option>
+
+		    </select>
+		  			 <div class="form-group">
+				            <label for="InputDesc"> Descrição </label>
+				            <textarea class="form-control" id="textareaDesc" placeholder="Insira uma descrição"></textarea>		       
+				      </div>
+
+				          <div class="form-group">	
+					        <script>
+								function updateSize() {
+								  var nBytes = 0,
+								      oFiles = document.getElementById("uploadInput").files,
+								      nFiles = oFiles.length;
+								  for (var nFileId = 0; nFileId < nFiles; nFileId++) {
+								    nBytes += oFiles[nFileId].size;
+								  }
+								  var sOutput = nBytes + " bytes";
+								  // optional code for multiples approximation
+								  for (var aMultiples = ["KiB", "MiB", "GiB", "TiB", "PiB", "EiB", "ZiB", "YiB"], nMultiple = 0, nApprox = nBytes / 1024; nApprox > 1; nApprox /= 1024, nMultiple++) {
+								    sOutput = nApprox.toFixed(3) + " " + aMultiples[nMultiple] + " (" + nBytes + " bytes)";
+								  }
+								  // end of optional code
+								  document.getElementById("fileNum").innerHTML = nFiles;
+								  document.getElementById("fileSize").innerHTML = sOutput;
+								}
+							</script>
+							<input id="uploadInput" type="file" name="myFiles" onchange="updateSize();" multiple> </p>       
+						 </div>			       
+		              <div class="modal-footer">
+		                <button type="button" class="btn btn-primary" data-dismiss="modal">Salvar Cadastro </button>		               
+		                <button type="button" class="btn btn-danger" data-dismiss="modal"> Cancelar</button>
+		              </div>
+		              </form> 
+		            </div>
+		          </div>
+		        </div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+		</div>
+	    </section>
+			<section class="p-0" id="portfolio">
+		      <div class="container-fluid p-0">
+		        <div class="row no-gutters popup-gallery">
+		          <div class="col-lg-4 col-sm-6">
+		            <a class="portfolio-box text-center" href="local.html">
+		              <img class="img-fluid" src="img/colono.jpg" alt="">
+		              <div class="portfolio-box-caption">
+		                <div class="portfolio-box-caption-content">
+		                	<div class="project-name">
+		                    Monumento Ao Colono
+		                  </div>
+		                  <div class="project-category text-faded">
+		                    <p>Av. Marcelino Píres, 16610 - Jardim Climax, 79801-004</p>
+		                  </div>		
+		                </div>
+		              </div>
+		            </a>
+		          </div>
+		          <div class="col-lg-4 col-sm-6">
+		            <a class="portfolio-box text-center" href="local.html">
+		              <img class="img-fluid" src="img/Ajoao.jpg" alt="">
+		              <div class="portfolio-box-caption">
+		                <div class="portfolio-box-caption-content">
+		                  <div class="project-name">
+		                    Praça Antônio João
+		                  </div>
+		                  <div class="project-category text-faded">
+		                    <p>Rua, Av. Joaquim Teixeira Alves - Centro</p>
+		                  </div>
+		                </div>
+		              </div>
+		            </a>
+		          </div>
+		          <div class="col-lg-4 col-sm-6">
+		            <a class="portfolio-box text-center" href="local.html">
+		              <img class="img-fluid" src="img/ipes.jpg" alt="">
+		              <div class="portfolio-box-caption">
+		                <div class="portfolio-box-caption-content">
+		                  <div class="project-name">
+		                   Parque dos Ipês		                  </div>
+		                  <div class="project-category text-faded">
+		                    <p> Av. Pres. Vargas - Vila Tonani I, 79825-090</p>
+		                  </div>
+		                </div>
+		              </div>
+		            </a>
+		          </div>
+		          <div class="col-lg-4 col-sm-6">
+		            <a class="portfolio-box text-center" href="local.html">
+		              <img class="img-fluid" src="img/uvelha.jpg" alt="">
+		              <div class="portfolio-box-caption">
+		                <div class="portfolio-box-caption-content">
+		                  <div class="project-name">
+		                    Usina Velha
+		                  </div>
+		                  <div class="project-category text-faded">
+		                    <p>R. Manoel Santiago, 1155 - Jardim Itaipu, 79825-150</p>
+		                  </div>
+		                </div>
+		              </div>
+		            </a>
+		          </div>
+		          <div class="col-lg-4 col-sm-6">
+		            <a class="portfolio-box text-center" href="local.html">
+		              <img class="img-fluid" src="img/fioravante.jpg" alt="">
+		              <div class="portfolio-box-caption">
+		                <div class="portfolio-box-caption-content">
+		                  <div class="project-name">
+		                   Parque Arnulpho Fioravante
+		                  </div>
+		                  <div class="project-category text-faded">
+		                    <p>R. Humberto de Campos, 3253 - Vila Sulmat</p>
+		                  </div>
+		                </div>
+		              </div>
+		            </a>
+		          </div>
+		          <div class="col-lg-4 col-sm-6">
+		            <a class="portfolio-box text-center" href="local.html">
+		              <img class="img-fluid" src="img/museu.jpg" alt="">
+		              <div class="portfolio-box-caption">
+		                <div class="portfolio-box-caption-content">
+		                 <div class="project-name">
+		                    Museu Histórico e Cultural
+		                  </div>
+		                  <div class="project-category text-faded">
+		                    <p>Rua João Rosa Góes, 395- Centro, 79803-010</p>
+		                  </div>
+		                </div>
+		              </div>
+		            </a>
+		          </div>
+		        </div>
+		      </div>
+
+	
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+
+</body>
+</html>
